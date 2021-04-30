@@ -1,0 +1,23 @@
+package com.ovi.myshiro.entity;
+
+import lombok.Data;
+import lombok.ToString;
+
+import java.io.Serializable;
+
+/**
+ * @author yxfstart
+ * @create 2021-04-20 15:19
+ */
+@Data
+@ToString
+public class Role implements Serializable {
+
+    private static final long serialVersionUID = -1767327914553823741L;
+
+    private Integer id;
+
+    private String role;
+
+    private String desc;
+}

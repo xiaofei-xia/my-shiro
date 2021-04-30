@@ -1,0 +1,16 @@
+
+server:
+  port: 8903
+spring:
+  application:
+    name: lab-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.139.133:3306/shiro?charset=utf8
+    username: root
+    password: 123456
+mybatis:
+  type-aliases-package: cn.ntshare.laboratory.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
